@@ -47,9 +47,9 @@ Only a public Supabase publishable key may be included in this frontend reposito
 - GitHub Pages URL: [Add deployed GitHub Pages URL]
 - Student ID for verification: [Add Vistula student ID]
 
+The Team Contribution page is available at `contribution.html`. It loads contributor details from `contribution.json`.
+
 ## Pull Requests
 
 - Incoming contribution PR (provided by another student): [Add incoming PR URL]
 - Outgoing contribution PR: [Add outgoing PR URL]
-
-The `contribution.html` and `contribution.json` files are intentionally not included; they must be provided through the incoming contribution pull request.

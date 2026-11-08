@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="theme-color" content="#f2f5f3">
+		<title>Team Contribution | Task Manager</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="style.css">
+		<script src="contribution.js" defer></script>
+	</head>
+	<body>
+		<div class="app-shell">
+			<header class="topbar">
+				<a class="brand" href="index.html" aria-label="Task Manager home">
+					<span class="brand-mark" aria-hidden="true">T</span>
+					<span>Task Manager</span>
+				</a>
+			</header>
+
+			<main>
+				<section class="page-heading" aria-labelledby="page-title">
+					<div>
+						<p class="eyebrow">TEAM PROJECT</p>
+						<h1 id="page-title">Team Contribution</h1>
+						<p class="page-intro">Meet a contributor to the Task Manager project.</p>
+					</div>
+				</section>
+
+				<section class="contribution-panel" aria-label="Contributor details">
+					<p class="panel-intro">View the contributor's project details.</p>
+					<button class="primary-button" id="show-contributor" type="button">Show Contributor</button>
+					<p class="status-message" id="contribution-status" role="status" aria-live="polite"></p>
+					<div class="contributor-details" id="contributor-details" hidden>
+						<h2 id="contributor-name"></h2>
+						<p id="contributor-student-id"></p>
+					</div>
+				</section>
+
+				<a class="contribution-link contribution-back" href="index.html">
+					<span aria-hidden="true">←</span> Back to Task Manager
+				</a>
+			</main>
+
+			<footer class="page-footer">
+				<span>Vistula University · Team Project</span>
+				<span>Plan thoughtfully. Do the work.</span>
+			</footer>
+		</div>
+	</body>
+</html>
