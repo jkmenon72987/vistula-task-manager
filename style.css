@@ -167,6 +167,45 @@ h1 {
 	font-size: 16px;
 }
 
+.contribution-panel {
+	max-width: 640px;
+	padding: 28px;
+	border: 1px solid rgba(28, 41, 37, 0.08);
+	border-radius: 10px;
+	background: var(--paper);
+	box-shadow: var(--shadow);
+}
+
+.contribution-panel .panel-intro {
+	margin-bottom: 20px;
+}
+
+.contribution-panel .status-message {
+	margin-bottom: 0;
+}
+
+.contributor-details {
+	margin-top: 20px;
+	padding: 18px;
+	border: 1px solid var(--line);
+	border-radius: 7px;
+	background: #fbfdfb;
+}
+
+.contributor-details h2 {
+	margin-bottom: 6px;
+}
+
+.contributor-details p {
+	margin-bottom: 0;
+	color: var(--muted);
+	font-size: 13px;
+}
+
+.contribution-back {
+	margin-top: 20px;
+}
+
 .workspace {
 	display: grid;
 	grid-template-columns: minmax(270px, 0.78fr) minmax(0, 1.5fr);
@@ -526,7 +565,8 @@ h2 {
 	}
 
 	.composer-panel,
-	.tasks-panel {
+	.tasks-panel,
+	.contribution-panel {
 		padding: 20px;
 	}
 }
